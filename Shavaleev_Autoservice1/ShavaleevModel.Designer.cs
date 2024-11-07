@@ -1,4 +1,4 @@
-﻿// Создание кода T4 для модели "D:\ИСП-3322\Шавалеев\Shavaleev_Autoservice1\Shavaleev_Autoservice1\ShavaleevModel.edmx" включено. 
+﻿// Создание кода T4 для модели "D:\ИСП-3322\Шавалеев\Shavaleev_AutoserviceMain\Shavaleev_Autoservice1\ShavaleevModel.edmx" включено. 
 // Чтобы включить формирование кода прежних версий, измените значение свойства "Стратегия создания кода" конструктора
 // на "Legacy ObjectContext". Это свойство доступно в окне "Свойства", если модель
 // открыта в конструкторе.

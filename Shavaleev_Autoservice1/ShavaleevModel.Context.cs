@@ -12,19 +12,19 @@ namespace Shavaleev_Autoservice1
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
+
     public partial class ShaveleevAutoserviceEntities : DbContext
     {
         private static ShaveleevAutoserviceEntities _context;
-
         public static ShaveleevAutoserviceEntities GetContext()
         {
-            if (_context == null)
-                _context = new ShaveleevAutoserviceEntities();
 
+            if (_context == null) 
+                _context = new ShaveleevAutoserviceEntities();
             return _context;
         }
-
         public ShaveleevAutoserviceEntities()
             : base("name=ShaveleevAutoserviceEntities")
         {
